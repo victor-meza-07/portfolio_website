@@ -1,0 +1,224 @@
+body
+{
+    background-color: #fcf7f0;
+    min-width: 300px;
+}
+
+@font-face
+{
+    font-family: Gatsby;
+    src: url(Fonts/SummerLight-lrAX.otf);
+}
+
+@font-face
+{
+    font-family: Unique;
+    src: url(Fonts/unique/Unique.ttf);
+}
+
+.mainImage
+{
+    margin-top: 15px;
+    max-width: 50%;
+    max-height: auto;
+    box-shadow:  8px 8px 10px #a8a8a8, 
+             -5px -5px 10px #5a212c;    
+}
+
+.mainWelomeMessage-text
+{
+    font-size: 150%;
+    display: inline-block;
+    color: rgb(49, 45, 45);
+    font-weight: 100;
+    font-family: fantasy;
+    max-height: 2em;
+    padding-top: 1em;
+}
+.mainAboutMe-text
+{
+    color: rgb(49, 45, 45);
+    font-weight: 100;
+    font-family: Unique;
+    font-size: 400%;
+    text-shadow:
+   -1px -1px 0 #fcf7f0,  
+    1px -1px 0 #fcf7f0,
+    -1px 1px 0 #fcf7f0,
+     1px 1px 0 #fcf7f0;
+}
+.mainProjects-text
+{
+    font-family: Gatsby;
+    font-weight: 900;
+    font-size: 300%;
+    display: inline-block;
+    background: -webkit-linear-gradient(rgb(253, 225, 68), rgb(172, 130, 16));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    max-height: 2em;
+    padding-top: 1em;
+}
+
+.mainContact-text
+{
+    font-size: 200%;
+    display: inline-block;
+    color: rgb(49, 45, 45);
+    font-weight: 900;
+    font-family: Cambria;
+    max-height: 2em;
+    padding-top: 1em;
+}
+
+.mainWelcomeMessage-Container
+{
+    background: #fcf7f0;
+    box-shadow:  8px 8px 10px #a8a8a8, 
+             -5px -5px 10px #fffef6;    
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 1em;
+}
+
+.mainWelcomeMessage-gentext
+{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.socialList
+{
+    text-align: center;
+    list-style-type: none;
+    min-width: 100%;
+}
+
+.social
+{
+    float: left;
+    max-height: auto;
+    max-width: 50%;
+    margin: 10%;
+}
+
+.ulNavBar
+{
+    list-style-type: none;
+    min-width: 100%;
+}
+
+.linavbar
+{
+    display: inline-block;
+    color: white;
+    padding-left: 3%;
+}
+
+
+.iconspacer, a:active, a:visited, a:link
+{
+    color:black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer-custom
+{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding: 2%;
+    min-width: 100%;
+    background-color: #3b2e57;
+}
+
+.pageContainer
+{
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+
+.customCard
+{
+    margin-top: 70px;
+}
+
+.customCard-container
+{
+    border-radius: 0px;
+    background: #fcf7f0;
+    box-shadow: inset 9px 9px 18px #c7c3be, 
+            inset -9px -9px 18px #ffffff;
+}
+
+.testimonialImages
+{
+    max-width: 20%;
+    max-height: auto;
+    margin-top: 20px;
+}
+
+.testimonialNames
+{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.carousel-inner img 
+{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.contactCard-container
+{
+    border-radius: 0px;
+    background: #030729;
+    box-shadow:  16px 16px 32px #020620, 
+             -16px -16px 32px #040832;
+}
+
+.projects-container
+{
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.customTable
+{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.customGit
+{
+    color:white;
+}
+
+.mainWelcomebg
+{
+    background-image: url(./Images/reWEHyx.jpg);
+}
+
+.whiteText
+{
+    color: white;
+}
+
+.whiteHr
+{
+    border-color: white;
+}
+
+.contrastbg
+{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.welcometxtspacer
+{
+    padding-top: 20px;
+}
